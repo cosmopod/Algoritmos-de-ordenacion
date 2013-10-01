@@ -11,15 +11,15 @@ class Burbuja{
 public function ordenaArray($array){
 
 	$numElemArray = count($array);
-	$isOrdered = true;
-	while($isOrder){
 	$isOrdered = false;
+	while(!$isOrder){
+	$isOrdered = true;
 		for($i = 1; $i < $numElemArray; $i++){
 			if($array[$i] < $array[$i - 1]){
 				$aux = $array[$i];
 				$array[$i] = $array[$i - 1];
 				$array[$i - 1] = $aux;	
-				$isOrdered = true;
+				$isOrdered = false;
 			}
 		}
 		
