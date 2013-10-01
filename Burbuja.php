@@ -12,7 +12,7 @@ public function ordenaArray($array){
 
 	$numElemArray = count($array);
 	$isOrdered = false;
-	while(!$isOrder){
+	while(!$isOrdered){
 	$isOrdered = true;
 		for($i = 1; $i < $numElemArray; $i++){
 			if($array[$i] < $array[$i - 1]){
