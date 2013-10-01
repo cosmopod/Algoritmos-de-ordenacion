@@ -1,6 +1,6 @@
 <?php
 
-/* Algoritmo de ordenación para arrays conocido como Método de la burbuja.
+/* Algoritmo de ordenación para arrays de enteros conocido como Método de la burbuja.
 Aquí presenta una formulación algo distinta a la que podemos encontrar
 habitualmente en PHP con dos bucles 'for' anidados.
 */
